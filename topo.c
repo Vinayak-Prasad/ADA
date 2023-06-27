@@ -17,7 +17,7 @@ void main()
     scanf("%d",&m);
     for(int i=1;i<=m;i++)
     {
-        printf("\nEnter an edge");
+        printf("Enter an edge:");
         scanf("%d%d",&u,&v);
         a[u][v]=1;
     }
